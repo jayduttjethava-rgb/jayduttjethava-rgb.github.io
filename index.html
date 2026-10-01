@@ -1,193 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="google-site-verification" content="r1YuGbmx2wFvoLla2269YnPl2ubX3RKy7MVcOtsH2VM" />
-  <title>WhatsApp Download</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Useful Apps - Safe App Downloads</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7f6;
+    color: #222;
+}
 
-    body {
-      min-height: 100vh;
-      background: #f0f2f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
+header {
+    background: #128C7E;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
 
-    .container {
-      width: 100%;
-      max-width: 900px;
-      background: white;
-      border-radius: 25px;
-      padding: 50px 30px;
-      text-align: center;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.12);
-    }
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
 
-    .logo {
-      width: 90px;
-      height: 90px;
-      margin: auto;
-      border-radius: 50%;
-      background: #25D366;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 48px;
-      font-weight: bold;
-    }
+header p {
+    margin: 8px 0 0;
+}
 
-    h1 {
-      margin-top: 25px;
-      font-size: 42px;
-      color: #111;
-    }
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
 
-    .subtitle {
-      margin: 15px auto 30px;
-      max-width: 600px;
-      color: #555;
-      font-size: 18px;
-      line-height: 1.6;
-    }
+.search {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
 
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
+.apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
 
-    .download-btn {
-      display: inline-block;
-      padding: 15px 28px;
-      border-radius: 30px;
-      background: #25D366;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-      font-weight: bold;
-      transition: 0.2s;
-    }
+.app {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
 
-    .download-btn:hover {
-      background: #128C7E;
-      transform: translateY(-2px);
-    }
+.app h2 {
+    margin-top: 0;
+}
 
-    .info {
-      margin-top: 40px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
+.app p {
+    color: #666;
+}
 
-    .card {
-      width: 220px;
-      padding: 22px;
-      background: #f7f7f7;
-      border-radius: 15px;
-    }
+.download {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    .card h3 {
-      margin-bottom: 8px;
-      color: #222;
-    }
-
-    .card p {
-      color: #666;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    footer {
-      margin-top: 35px;
-      color: #777;
-      font-size: 13px;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 32px;
-      }
-
-      .subtitle {
-        font-size: 16px;
-      }
-
-      .container {
-        padding: 40px 20px;
-      }
-    }
-  </style>
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #666;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="container">
+<header>
+    <h1>📱 Useful Apps</h1>
+    <p>Find useful apps and visit their official download pages</p>
+</header>
 
-    <div class="logo">W</div>
+<div class="container">
 
-    <h1>WhatsApp</h1>
+<input class="search" type="text" placeholder="🔍 Search apps...">
 
-    <p class="subtitle">
-      Simple, reliable and private messaging.
-      Download WhatsApp for your device from the official WhatsApp website.
-    </p>
+<div class="apps">
 
-    <div class="buttons">
+<div class="app">
+    <h2>WhatsApp</h2>
+    <p>Messaging and calling app.</p>
+    <a class="download" href="https://www.whatsapp.com/download" target="_blank">
+        Official Download
+    </a>
+</div>
 
-      <a
-        class="download-btn"
-        href="https://www.whatsapp.com/download"
-        target="_blank"
-        rel="noopener noreferrer">
-        Download WhatsApp
-      </a>
+<div class="app">
+    <h2>Google Chrome</h2>
+    <p>Fast and popular web browser.</p>
+    <a class="download" href="https://www.google.com/chrome/" target="_blank">
+        Official Download
+    </a>
+</div>
 
-    </div>
+<div class="app">
+    <h2>Microsoft Edge</h2>
+    <p>Web browser for browsing the internet.</p>
+    <a class="download" href="https://www.microsoft.com/edge" target="_blank">
+        Official Download
+    </a>
+</div>
 
-    <div class="info">
+<div class="app">
+    <h2>VLC Media Player</h2>
+    <p>Play videos and music on your device.</p>
+    <a class="download" href="https://www.videolan.org/vlc/" target="_blank">
+        Official Download
+    </a>
+</div>
 
-      <div class="card">
-        <h3>📱 Mobile</h3>
-        <p>
-          Get WhatsApp for supported mobile devices.
-        </p>
-      </div>
+</div>
+</div>
 
-      <div class="card">
-        <h3>💻 Desktop</h3>
-        <p>
-          Use WhatsApp on your computer.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>🔒 Private</h3>
-        <p>
-          Keep your personal messages and calls private.
-        </p>
-      </div>
-
-    </div>
-
-    <footer>
-      This is an independent download page. WhatsApp is a trademark of Meta.
-    </footer>
-
-  </div>
+<footer>
+    © 2026 Useful Apps | Independent website
+</footer>
 
 </body>
 </html>
